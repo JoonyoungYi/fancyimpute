@@ -54,7 +54,7 @@ if __name__ == '__main__':
             'Topic :: Scientific/Engineering :: Bio-Informatics',
         ],
         install_requires=[
-            'knnimpute',
+            'knnimpute==0.1.0',
             # need at least 1.10 for np.multi_dot
             'numpy>=1.10',
             'scipy',
@@ -63,7 +63,7 @@ if __name__ == '__main__':
             'scikit-learn>=0.21.2',
             # used by MatrixFactorization
             'keras>=2.0.0',
-            'tensorflow',
+            'tensorflow-gpu>=1.12.0',
         ],
         long_description=readme_markdown,
         long_description_content_type='text/markdown',
